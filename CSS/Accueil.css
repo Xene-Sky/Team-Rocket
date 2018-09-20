@@ -1,63 +1,70 @@
-* {box-sizing: border-box;}
-ul {list-style-type: none;}
-body {font-family: 'Parisienne', cursive;
-    background-image:url(./red.jpg);
+* {
+    box-sizing: border-box;
 }
 
-.month {
+ul {
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Parisienne', cursive;
+    background-image:url(../img/red.jpg);
+    background-repeat: no-repeat;
+}
+
+.year {
     padding: 70px 25px;
     width: 100%;
-    background-image: url(./brevage.jpg);
+    background-image: url(../img/brevage.jpg);
     background-position: center; 
     text-align: center;
     font-family: 'Fira Sans', sans-serif;
 }
 
-.month ul {
+.year ul {
     margin: 0;
     padding: 0;
 }
 
-.month ul li {
+.year ul li {
     color: white;
     font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 3px;
 }
 
-.month .prev {
+.year .prev {
     float: left;
     padding-top: 10px;
 }
 
-.month .next {
+.year .next {
     float: right;
     padding-top: 10px;
 }
 
-.days {
+.month {
     padding: 10px 0;
     background: #eee;
     margin: 0;
 }
 
-.days li {
-    list-style-type: none;
+.month li {
     display: inline-block;
-    width: 13.6%;
-    text-align: left;
+    width: 140px;
     margin-bottom: 5px;
-    font-size:12px;
-    color: #CC2030;
-    border: 2px solid black;
+    color: #CC2030; 
     line-height: 80px;
     padding: 10px;
+    border: 2px solid black;
     border-radius: 30px;
     font-size: 30px;
     text-align: center;
+    text-decoration: none;
+    justify-content: space-around;
 }
 
-.days li:hover {
+.month li:hover {
     padding: 13px;
     background: #096899;
     color: white;
@@ -68,7 +75,8 @@ body {font-family: 'Parisienne', cursive;
 .entete h1 {
     width: 50%;
     float: left;
-    color: #0E597F;
+    color: #000000;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 .entete img {
@@ -89,19 +97,13 @@ body {font-family: 'Parisienne', cursive;
 
 .date {
     background:  rgba(100, 100, 100, .8);
-    ba
-}
-
-/* Add media queries for smaller screens */
-@media screen and (max-width:720px) {
-    .weekdays li, .days li {width: 13.1%;}
 }
 
 @media screen and (max-width: 420px) {
-    .weekdays li, .days li {width: 12.5%;}
-    .days li .active {padding: 2px;}
-}
+    .entete h1 {
+        margin-top: 5px;
+        padding-bottom: 10px;
+        font-size: 25px;
+    }
 
-@media screen and (max-width: 290px) {
-    .weekdays li, .days li {width: 12.2%;}
 }

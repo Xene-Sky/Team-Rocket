@@ -1,13 +1,21 @@
-* {box-sizing: border-box;}
-ul {list-style-type: none;}
-body {font-family: 'Parisienne', cursive;
-    background-image:url(./red.jpg);
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Parisienne', cursive;
+    background-image:url(../img/red.jpg);
+    background-repeat: no-repeat;
 }
 
 .month {
     padding: 70px 25px;
     width: 100%;
-    background-image: url(./bosse.jpg);
+    background-image: url(../img/bosse.jpg);
     background-position: center; 
     text-align: center;
     font-family: 'Fira Sans', sans-serif;
