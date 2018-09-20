@@ -1,13 +1,25 @@
+body {
+	font-family: 'Parisienne', cursive;
+	background-image: url(../img/red.jpg);
+	width: 100%;
+}
+
 #formulaire {
 	border: 3px solid #CC2030;
 	border-radius: 20px;
-	padding: 10%;
-	 
+	padding-left: 5%;
+	padding-right: 10%;
+	padding-top: 3%;
+	padding-bottom: 5%;
+	width: 220px;
+	margin-left: 35%;
+	background-color: white;	
 }
 
 #date {
 	margin-bottom: 10px;
 }
+
 #date::before{
 	font-family: "Font Awesome 5 Free"; 
     content: "\f133";
@@ -28,10 +40,6 @@
 	color: #CC2030;
 }
 
-#hour {
-
-}
-
 #hour::before{
 	font-family: "Font Awesome 5 Free"; 
     content: "\f017";
@@ -39,19 +47,11 @@
 	color: #CC2030;
 }
 
-#minute{
-
-}
-
 #minute::before{
 font-family: "Font Awesome 5 Free";
 content: "\f017";
 font-weight: 900;
 color: #CC2030;
-}
-
-#name {
-	
 }
 
 #name::before{
@@ -68,13 +68,35 @@ color: #CC2030;
 	color: #CC2030;
 }
 
+
+.nom_prenom {
+	border: 2px solid #CC2030;
+	border-radius: 20px;
+	box-shadow: #CC2030;
+	padding: 10px;
+	
+}
+
 .nom {
 	margin-bottom: 10px;
 }
 
+.type_evenement {
+	border: 2px solid #CC2030;
+	border-radius: 20px;
+	padding: 10px;
+	margin-top: 5px;
+	display: flex;
+	flex-wrap: wrap;
+
+
+}
+
 #resume, #evenement {
 	margin-top: 10px; 
-}
+	border-color: #CC2030;
+	
+}	
 
 #resume label::before{
 	font-family: "Font Awesome 5 Free";
@@ -89,10 +111,14 @@ color: #CC2030;
 	font-weight: 900;
 	color: #CC2030;
 }
+
 #evenement textarea{
 	resize:none;
-	height: 110px;
-	width: 300px;
+	height: 200px;
+	width: 250px;
+	border: 2px solid #CC2030;
+	border-radius: 20px;
+	
 }
 
 #validation {
@@ -102,13 +128,34 @@ color: #CC2030;
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 900px) {
 	#evenement textarea {
 	height: 200px;
-	width: 150px;
+	width: 250px;
 	}
 	#heure {
 	display: flex;
+	}
+}
 
+
+@media screen and (max-width: 600px) {
+	#formulaire {
+		margin-left:15%;
+	}
+	#evenement textarea {
+		height: 150px;
+		width: 230px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+
+	#formulaire {
+	margin-left:2%;
+	}
+	#evenement textarea {
+		height: 100px;
+		width: 215px;
 	}
 }

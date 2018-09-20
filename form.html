@@ -3,6 +3,7 @@
 <meta charset="utf-8">
 <link rel="stylesheet" type="text/css" href="./CSS/form.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Parisienne" rel="stylesheet"> 
 <head>
 	<title>Formulaire de rendez-vous</title>
 </head>
@@ -64,14 +65,17 @@
 				</select>
 			</div>	
 			
-			</div>
-		<label for="prenom" id="name"> Nom de la personne avec qui vous avez rendez-vous :</label>
+		</div>
+
+		<div class="nom_prenom"></div>
+			<label for="prenom" id="name"> Nom de la personne avec qui vous avez rendez-vous :</label>
 			<p class="name">Nom :</p>
 			<input type="text" name="nom" class="nom"><br>
 			<p class="name">Prénom :</p>
 			<input type="text" name="prenom" class="nom">
-		
+		</div>
 
+		<div class="type_evenement"></div>
 		<div id="resume">
 			<label for="resume"> Résumé de l'événement : </label>
 			<!-- <input type="text" name="resume"  value="20 caractères" maxlength="20"> -->
@@ -82,6 +86,7 @@
 				<option value="autre"> Autre </option>
 			</select>
 			<br>
+		</div>
 		</div>
 
 		<div id="evenement">
