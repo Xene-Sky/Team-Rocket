@@ -8,6 +8,12 @@
 #date {
 	margin-bottom: 10px;
 }
+#date::before{
+	font-family: "Font Awesome 5 Free"; 
+    content: "\f133";
+	font-weight: 900;
+	color: #CC2030;
+}
 
 #heure{
 	display: flex;
@@ -15,16 +21,51 @@
 	margin-bottom: 10px;
 }
 
+#heure::before{
+	font-family: "Font Awesome 5 Free";
+	content: "\f254";
+	font-weight: 900;
+	color: #CC2030;
+}
+
 #hour {
 
+}
+
+#hour::before{
+	font-family: "Font Awesome 5 Free"; 
+    content: "\f017";
+	font-weight: 900;
+	color: #CC2030;
 }
 
 #minute{
 
 }
 
+#minute::before{
+font-family: "Font Awesome 5 Free";
+content: "\f017";
+font-weight: 900;
+color: #CC2030;
+}
+
 #name {
 	
+}
+
+#name::before{
+	font-family: "Font Awesome 5 Free";
+	content: "\f007";
+	font-weight: 900;
+	color: #CC2030;
+}
+
+.name::before{
+	font-family: "Font Awesome 5 Free";
+	content: "\f4ff";
+	font-weight: 900;
+	color: #CC2030;
 }
 
 .nom {
@@ -33,8 +74,21 @@
 
 #resume, #evenement {
 	margin-top: 10px; 
-}	
+}
 
+#resume label::before{
+	font-family: "Font Awesome 5 Free";
+	content: "\f5a1";
+	font-weight: 900;
+	color: #CC2030;
+}
+
+#evenement label::before{
+	font-family: "Font Awesome 5 Free";
+	content: "\f075";
+	font-weight: 900;
+	color: #CC2030;
+}
 #evenement textarea{
 	resize:none;
 	height: 110px;
@@ -47,15 +101,6 @@
 	margin-top: 20px; 
 }
 
-<<<<<<< Updated upstream
-#restart {
-	color: #EEEEEE;
-	background-color: #CC2030;
-	margin-top: 20px; 
-}
-
-=======
->>>>>>> Stashed changes
 
 @media screen and (max-width: 400px) {
 	#evenement textarea {
