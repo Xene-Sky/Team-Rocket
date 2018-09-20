@@ -38,6 +38,7 @@ body {
 	content: "\f254";
 	font-weight: 900;
 	color: #CC2030;
+	padding: 2px;
 }
 
 #hour::before{
@@ -122,6 +123,12 @@ color: #CC2030;
 }
 
 #validation {
+	color: #EEEEEE;
+	background-color: #CC2030;
+	margin-top: 20px; 
+}
+
+#restart {
 	color: #EEEEEE;
 	background-color: #CC2030;
 	margin-top: 20px; 
