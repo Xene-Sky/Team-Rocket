@@ -1,0 +1,60 @@
+#formulaire {
+	border: 3px solid #CC2030;
+	border-radius: 20px;
+	padding: 10%;
+	 
+}
+
+#date {
+	margin-bottom: 10px;
+}
+
+#heure{
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 10px;
+}
+
+#hour {
+
+}
+
+#minute{
+
+}
+
+#name {
+	
+}
+
+.nom {
+	margin-bottom: 10px;
+}
+
+#resume, #evenement {
+	margin-top: 10px; 
+}	
+
+#evenement textarea{
+	resize:none;
+	height: 110px;
+	width: 300px;
+}
+
+#validation {
+	color: #EEEEEE;
+	background-color: #CC2030;
+	margin-top: 20px; 
+}
+
+
+@media screen and (max-width: 400px) {
+	#evenement textarea {
+	height: 200px;
+	width: 150px;
+	}
+	#heure {
+	display: flex;
+
+	}
+}
