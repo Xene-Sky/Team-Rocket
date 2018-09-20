@@ -47,12 +47,15 @@
 	margin-top: 20px; 
 }
 
+<<<<<<< Updated upstream
 #restart {
 	color: #EEEEEE;
 	background-color: #CC2030;
 	margin-top: 20px; 
 }
 
+=======
+>>>>>>> Stashed changes
 
 @media screen and (max-width: 400px) {
 	#evenement textarea {
