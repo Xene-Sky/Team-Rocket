@@ -65,7 +65,7 @@ body {
 }
 
 .month li:hover {
-    padding: 10px;
+    padding: 13px;
     background: #096899;
     color: white;
     border: 2px solid white;
@@ -73,11 +73,10 @@ body {
 }
 
 .entete h1 {
-    width:50%;
-    color: black;
-    text-shadow: 3px 2px #0E597F;
+    width: 50%;
+    float: left;
+    color: #000000;
     font-family: 'Fira Sans', sans-serif;
-    text-decoration: none;
 }
 
 .entete img {

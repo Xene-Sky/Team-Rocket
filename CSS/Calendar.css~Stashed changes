@@ -146,19 +146,14 @@ body {
 
 /* Add media queries for smaller screens */
 @media screen and (max-width:720px) {
-    .weekdays li, .days li {
-        width: 13.1%;
-    }
+    .weekdays li, .days li {width: 13.1%;}
 }
 
 @media screen and (max-width: 420px) {
-    .weekdays li, .days li {
-        width: 12.5%;
-    }
+    .weekdays li, .days li {width: 12.5%;}
+    .days li .active {padding: 2px;}
 }
 
 @media screen and (max-width: 290px) {
-    .weekdays li, .days li {
-        width: 12.2%;
-    }
+    .weekdays li, .days li {width: 12.2%;}
 }
