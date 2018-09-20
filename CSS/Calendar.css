@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Parisienne', cursive;
+    background-image:url(../img/red.jpg);
+    background-repeat: no-repeat;
+}
+
+.month {
+    padding: 70px 25px;
+    width: 100%;
+    background-image: url(../img/bosse.jpg);
+    background-position: center; 
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #ddd;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+    font-size: 25px;
+}
+
+.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: left;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: #2E2E2E;
+    border: 2px solid #CC2030;
+    line-height: 80px;
+    padding: 5px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.days li:hover {
+    padding: 5px;
+    background: #CC2030;
+    color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+}
+
+.entete h1 {
+    width:50%;
+    color: black;
+    text-shadow: 3px 2px #0E597F;
+    font-family: 'Fira Sans', sans-serif;
+    text-decoration: none;
+    text-align: center;
+}
+
+.entete h1::before{
+    font-family: "Font Awesome 5 Free"; 
+    content: "\f015";
+    font-weight: 900;
+}
+
+.entete img {
+    width: 70%;
+    height: auto;
+    float: right;
+}
+
+.entete {
+    height: 100px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.entete a{
+    width: 50%;
+}
+
+.date {
+    background:  rgba(100, 100, 100, .5);
+}
+
+.fantom li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: left;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: #2E2E2E;
+    border: none;
+    line-height: 80px;
+    padding: 5px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.fantom li:hover {
+    padding: 7px;
+    background: #eee;
+    border: none;
+    border-radius: 30px;
+}
+
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:720px) {
+    .weekdays li, .days li {
+        width: 13.1%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .weekdays li, .days li {
+        width: 12.5%;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    .weekdays li, .days li {
+        width: 12.2%;
+    }
+}
