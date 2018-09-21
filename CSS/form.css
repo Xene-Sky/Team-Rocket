@@ -99,7 +99,7 @@ color: #CC2030;
 	
 }	
 
-#resume label::before{
+#resume span::before{
 	font-family: "Font Awesome 5 Free";
 	content: "\f5a1";
 	font-weight: 900;
