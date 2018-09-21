@@ -1,113 +1,110 @@
 <!DOCTYPE html>
 <html>
-<meta charset="utf-8">
-<link rel="stylesheet" type="text/css" href="./CSS/form.css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css?family=Parisienne" rel="stylesheet"> 
-<head>
-	<title>Formulaire de rendez-vous</title>
-</head>
-<body>
-	<div id="formulaire">
-	<form method="POST" action="./Ac.html">
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="./CSS/form.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Parisienne" rel="stylesheet"> 
+	<head>
+		<title>Formulaire de rendez-vous</title>
+	</head>
+	<body>
+		<div id="formulaire">
+			<form method="POST" action="./Ac.html">
 
-		<div id="date">
-			<label >Date de l'événement :
-				<input type="date" name="date"><br>
-			</label>
-		</div>
+				<div id="date">
+					<label >Date de l'événement :
+						<input type="date" name="date"><br>
+					</label>
+				</div>
 
-		<div id="heure">
-			<span>Heure de l'événement :</span>
-			<div id="hour">
-				<select>
-					<option value="00"> 00 </option>
-					<option value="01"> 01 </option>
-					<option value="02"> 02 </option>
-					<option value="03"> 03 </option>
-					<option value="04"> 04 </option>
-					<option value="05"> 05 </option>
-					<option value="06"> 06 </option>
-					<option value="07"> 07 </option>
-					<option value="08"> 08 </option>
-					<option value="09"> 09 </option>
-					<option value="10"> 10 </option>
-					<option value="11"> 11 </option>
-					<option value="12"> 12 </option>
-					<option value="13"> 13 </option>
-					<option value="14"> 14 </option>
-					<option value="15"> 15 </option>
-					<option value="16"> 16 </option>
-					<option value="17"> 17 </option>
-					<option value="18"> 18 </option>
-					<option value="19"> 19 </option>
-					<option value="20"> 20 </option>
-					<option value="21"> 21 </option>
-					<option value="22"> 22 </option>
-					<option value="23"> 23 </option>	
-				</select>
-			</div>
+				<div id="heure">
+					<span>Heure de l'événement :</span>
+					<div id="hour">
+						<select>
+							<option value="00"> 00 </option>
+							<option value="01"> 01 </option>
+							<option value="02"> 02 </option>
+							<option value="03"> 03 </option>
+							<option value="04"> 04 </option>
+							<option value="05"> 05 </option>
+							<option value="06"> 06 </option>
+							<option value="07"> 07 </option>
+							<option value="08"> 08 </option>
+							<option value="09"> 09 </option>
+							<option value="10"> 10 </option>
+							<option value="11"> 11 </option>
+							<option value="12"> 12 </option>
+							<option value="13"> 13 </option>
+							<option value="14"> 14 </option>
+							<option value="15"> 15 </option>
+							<option value="16"> 16 </option>
+							<option value="17"> 17 </option>
+							<option value="18"> 18 </option>
+							<option value="19"> 19 </option>
+							<option value="20"> 20 </option>
+							<option value="21"> 21 </option>
+							<option value="22"> 22 </option>
+							<option value="23"> 23 </option>	
+						</select>
+					</div>
 
-			<div id="minute">
-				<select>
-					<option value="00"> 00 </option>
-					<option value="05"> 05 </option>
-					<option value="10"> 10 </option>
-					<option value="15"> 15 </option>
-					<option value="20"> 20 </option>
-					<option value="25"> 25 </option>
-					<option value="30"> 30 </option>
-					<option value="35"> 35 </option>
-					<option value="40"> 40 </option>
-					<option value="45"> 45 </option>
-					<option value="50"> 50 </option>
-					<option value="55"> 55 </option>
-				</select>
-			</div>	
+					<div id="minute">
+						<select>
+							<option value="00"> 00 </option>
+							<option value="05"> 05 </option>
+							<option value="10"> 10 </option>
+							<option value="15"> 15 </option>
+							<option value="20"> 20 </option>
+							<option value="25"> 25 </option>
+							<option value="30"> 30 </option>
+							<option value="35"> 35 </option>
+							<option value="40"> 40 </option>
+							<option value="45"> 45 </option>
+							<option value="50"> 50 </option>
+							<option value="55"> 55 </option>
+						</select>
+					</div>	
 			
-		</div>
+				</div>
 
-		<div class="nom_prenom">
-			<p id="nameTitle"> Nom de la personne avec qui vous avez rendez-vous :</p>
-			<label class="name">Nom :
-				<input type="text" name="nom" class="nom"><br>
-			</label>
-			<label class="name">Prénom :
-				<input type="text" name="prenom" class="nom">
-			</label>
-		</div>
+				<div class="nom_prenom">
+					<p id="nameTitle"> Nom de la personne avec qui vous avez rendez-vous :</p>
+					<label class="name">Nom :
+						<input type="text" name="nom" class="nom"><br>
+					</label>
+					<label class="name">Prénom :
+						<input type="text" name="prenom" class="nom">
+					</label>
+				</div>
 
-		<div class="type_evenement">
-			<div id="resume">
-				<span> Résumé de l'événement : </span>
-				<!-- <input type="text" name="resume"  value="20 caractères" maxlength="20"> -->
-				<select>
-					<option value=""></option>
-					<option value="reunion"> Réunion </option>
-					<option value="rdvmedic"> Rendez-vous médical </option>
-					<option value="anniversaire"> Anniversaire </option>
-					<option value="autre"> Autre </option>
-				</select>
-				<br>
-			</div>
-		</div>
-		<div id="evenement">
-			<label> Description de l'événement :<br>
-				<textarea name="evenement" maxlength="300"> </textarea>
-				<br>
-			</label>
-		</div>
-		<div>
-			<input type="submit" name="validation" id="validation" value="Valider">
-		</div>
-		<div>
-			<input type="reset" name="restart" id="restart" value="Recommencer">
-		</div>
+				<div class="type_evenement">
+					<div id="resume">
+						<span> Résumé de l'événement : </span>
+						<!-- <input type="text" name="resume"  value="20 caractères" maxlength="20"> -->
+						<select>
+							<option value=""></option>
+							<option value="reunion"> Réunion </option>
+							<option value="rdvmedic"> Rendez-vous médical </option>
+							<option value="anniversaire"> Anniversaire </option>
+							<option value="autre"> Autre </option>
+						</select>
+						<br>
+					</div>
+				</div>
+				<div id="evenement">
+					<label> Description de l'événement :<br>
+						<textarea name="evenement" maxlength="300"> </textarea>
+						<br>
+					</label>
+				</div>
+				<div>
+					<input type="submit" name="validation" id="validation" value="Valider">
+				</div>
+				<div>
+					<input type="reset" name="restart" id="restart" value="Recommencer">
+				</div>
 
-
-		
-
-	</form>
-	</div>
-</body>
+			</form>
+		</div>
+	</body>
 </html>
